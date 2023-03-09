@@ -38,7 +38,11 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://github.com/blitzz12/backendtodo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blitzz12/frontendtodo"
+  },
+  "homepage": "https://github.com/blitzz12/frontendtodo",
   "browserslist": {
     "production": [
       ">0.2%",
