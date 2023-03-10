@@ -1,10 +1,19 @@
 import axios from 'axios';
 
-const API_URL = '/api/user/';
+const API_URL = 'https://backendtodo-pdefhpfr0-blitzz12.vercel.app/api/user/';
 
 
 const registerUser = async (userData) => {
-  const response = await axios.post(API_URL, userData)
+  // const config = {
+  //   headers: {
+  //     Authorization: `Bearer ${token}`
+  //   }
+  // }
+  const response = await axios.post(API_URL, userData,)
+    
+    
+  
+
 
   if (response.data) {
     localStorage.setItem('user', JSON.stringify(response.data))

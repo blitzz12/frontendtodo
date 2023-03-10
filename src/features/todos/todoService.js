@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = '/api/todos/'
+const API_URL = 'https://backendtodo-pdefhpfr0-blitzz12.vercel.app/api/todos/'
 
 
 
