@@ -41,7 +41,7 @@
     "type": "git",
     "url": "git+https://github.com/blitzz12/frontendtodo/signin"
   },
-  "homepage": "https://github.com/blitzz12",
+  "homepage": "https://github.com/blitzz12/signin",
   "browserslist": {
     "production": [
       ">0.2%",
