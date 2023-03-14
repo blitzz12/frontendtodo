@@ -1,7 +1,7 @@
 {
   "name": "frontendtodo",
   "version": "0.1.0",
-  "proxy": "http://:5000",
+  "proxy": "http://:5000/",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
